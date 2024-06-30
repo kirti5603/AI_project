@@ -1,0 +1,113 @@
+/* static/css/styles.css */
+
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@700&display=swap');
+
+body {
+    background-image: url('/static/images/background.jpg'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #946445; /* Text color */;
+    background-color: #dedde1; /* Fallback background color */
+}
+
+h1 {
+    color: #946445;
+    text-align: center;
+    margin: 20px 0;
+    font-size: 2.5em;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4); /* Adding a slight white background with transparency */
+    border-radius: 10px;
+}
+
+.form-label {
+    font-weight: bold;
+    color: #946445;
+}
+
+.form-control {
+    border-radius: 5px;
+    border: 1px solid #c5bfbf;
+    padding: 10px;
+    font-size: 1em;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #946445;
+    box-shadow: 0 0 5px rgba(148, 100, 69, 0.25);
+}
+
+.btn-primary {
+    background-color: #946445;
+    border-color: #946445;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #9d9082;
+    border-color: #9d9082;
+}
+
+.card {
+    border: 1px solid #946445;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #946445;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    padding: 10px 15px;
+    font-size: 1.25em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-body {
+    padding: 15px;
+    background-color: #dedde1;
+    border-radius: 0 0 10px 10px;
+}
+
+pre {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1em;
+    color: #373a2f;
+    white-space: pre-wrap;
+}
+
+.btn-secondary {
+    background-color: #9d9082;
+    border-color: #9d9082;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #c5bfbf;
+    border-color: #c5bfbf;
+}
